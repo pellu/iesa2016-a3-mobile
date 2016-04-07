@@ -1,0 +1,72 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/node',
+1 verbose cli   '/usr/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   '-g',
+1 verbose cli   'android-deploy' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.37
+4 verbose node symlink /usr/bin/node
+5 verbose cache add [ 'android-deploy', null ]
+6 verbose cache add name=undefined spec="android-deploy" args=["android-deploy",null]
+7 verbose parsed url { protocol: null,
+7 verbose parsed url   slashes: null,
+7 verbose parsed url   auth: null,
+7 verbose parsed url   host: null,
+7 verbose parsed url   port: null,
+7 verbose parsed url   hostname: null,
+7 verbose parsed url   hash: null,
+7 verbose parsed url   search: null,
+7 verbose parsed url   query: null,
+7 verbose parsed url   pathname: 'android-deploy',
+7 verbose parsed url   path: 'android-deploy',
+7 verbose parsed url   href: 'android-deploy' }
+8 silly lockFile 6e1aa994-android-deploy android-deploy
+9 verbose lock android-deploy /home/jordan/.npm/6e1aa994-android-deploy.lock
+10 silly lockFile 6e1aa994-android-deploy android-deploy
+11 silly lockFile 6e1aa994-android-deploy android-deploy
+12 verbose addNamed [ 'android-deploy', '' ]
+13 verbose addNamed [ null, '*' ]
+14 silly lockFile 68d698fc-android-deploy android-deploy@
+15 verbose lock android-deploy@ /home/jordan/.npm/68d698fc-android-deploy.lock
+16 silly addNameRange { name: 'android-deploy', range: '*', hasData: false }
+17 verbose request where is /android-deploy
+18 verbose request registry https://registry.npmjs.org/
+19 verbose request id 27f8f576d53e23d4
+20 verbose url raw /android-deploy
+21 verbose url resolving [ 'https://registry.npmjs.org/', './android-deploy' ]
+22 verbose url resolved https://registry.npmjs.org/android-deploy
+23 verbose request where is https://registry.npmjs.org/android-deploy
+24 info trying registry request attempt 1 at 12:32:58
+25 http GET https://registry.npmjs.org/android-deploy
+26 http 404 https://registry.npmjs.org/android-deploy
+27 silly registry.get cb [ 404,
+27 silly registry.get   { 'content-type': 'application/json',
+27 silly registry.get     'cache-control': 'max-age=0',
+27 silly registry.get     'content-length': '2',
+27 silly registry.get     'accept-ranges': 'bytes',
+27 silly registry.get     date: 'Thu, 07 Apr 2016 10:32:58 GMT',
+27 silly registry.get     via: '1.1 varnish',
+27 silly registry.get     age: '0',
+27 silly registry.get     connection: 'keep-alive',
+27 silly registry.get     'x-served-by': 'cache-fra1223-FRA',
+27 silly registry.get     'x-cache': 'MISS',
+27 silly registry.get     'x-cache-hits': '0',
+27 silly registry.get     'x-timer': 'S1460025178.529447,VS0,VE110',
+27 silly registry.get     vary: 'Accept-Encoding' } ]
+28 silly lockFile 68d698fc-android-deploy android-deploy@
+29 silly lockFile 68d698fc-android-deploy android-deploy@
+30 error 404 Not Found
+30 error 404
+30 error 404 'android-deploy' is not in the npm registry.
+30 error 404 You should bug the author to publish it
+30 error 404
+30 error 404 Note that you can also install from a
+30 error 404 tarball, folder, or http url, or git url.
+31 error System Linux 3.19.0-49-generic
+32 error command "/usr/bin/node" "/usr/bin/npm" "install" "-g" "android-deploy"
+33 error cwd /opt/lampp/htdocs/iesa2016-a3-mobile/exos/exo-01/hello
+34 error node -v v0.10.37
+35 error npm -v 1.4.28
+36 error code E404
+37 verbose exit [ 1, true ]
